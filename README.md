@@ -1,0 +1,2 @@
+# scoop
+windows package manager
