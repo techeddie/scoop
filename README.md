@@ -1,4 +1,6 @@
 # Scoop package manager 
+A beatiful command-line installer for Windows
+
 
 ### Set-ExecutionPolicy
 
@@ -6,11 +8,9 @@
 		
 ### Install scoop
 	iwr -useb get.scoop.sh | iex
-      
 
 ### install packages
 
-	Install packages
 	iwr -useb get.scoop.sh | iex
 	scoop install git
 	scoop bucket add extras
@@ -33,4 +33,6 @@
 	hold        Hold an app to disable updates
 	home        Opens the app homepage
 	info        Display information about an app
+
 	
+Website: https://scoop.sh/
