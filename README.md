@@ -11,7 +11,6 @@ A beatiful command-line installer for Windows
 
 ### install packages
 
-	iwr -useb get.scoop.sh | iex
 	scoop install git
 	scoop bucket add extras
 	scoop install notepadplusplus,brave,treesize-free,bat
