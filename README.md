@@ -13,9 +13,20 @@ A beatiful command-line installer for Windows
 
 	scoop install git
 	scoop bucket add extras
+
+	Get-Content $HOME\Desktop\packages.txt | ForEach-Object {
+		Write-Host "Installing package: $($_) "
+		scoop install $($_)
+	}
+
+Install only a few packages:
+
 	scoop install notepadplusplus,brave,treesize-free,bat
-	
+
+Clear old packages (cache) after running updates:
+
 	scoop cleanup *
+
 
 ### some useful commands
 
